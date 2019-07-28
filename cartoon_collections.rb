@@ -1,5 +1,4 @@
-
-dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
+dwarves  ["Dopey", "Doc", "Sleepy", "Grumpy"]
 def roll_call_dwarves(dwarves)
   
   dwarves.each.with_index(1) do |dwarf, index| 
@@ -7,20 +6,19 @@ def roll_call_dwarves(dwarves)
   end 
   
 end
-
- 
-
 roll_call_dwarves(dwarves)
 
 
+###########################################################################
+
+
+def summon_captain_planet(summons)
 
 
 
 
 
-#def summon_captain_planet# code an argument here
-  # Your code here
-#end
+end
 
 #def long_planeteer_calls# code an argument here
   # Your code here
