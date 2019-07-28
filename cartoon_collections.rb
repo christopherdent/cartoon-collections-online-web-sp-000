@@ -1,5 +1,9 @@
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
-def roll_call_dwarves(dwarves
+def roll_call_dwarves(dwarves)
+  
+  dwarves.each do |dwarf|
+    puts dwarf
+  end 
 
 
 
