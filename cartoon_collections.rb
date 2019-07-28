@@ -6,7 +6,7 @@ def roll_call_dwarves(dwarves)
 end
 
 
-roll_call_dwarves(dwarves)
+def roll_call_dwarves(dwarves)
 
 
 
