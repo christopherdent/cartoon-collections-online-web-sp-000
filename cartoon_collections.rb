@@ -14,11 +14,10 @@ roll_call_dwarves(dwarves)
 
 def summon_captain_planet(summons)
 
-summons.map do
+  summons.map do |summon|
+    summon.first.upcase
+  end 
   
-
-
-
 end
 
 #def long_planeteer_calls# code an argument here
