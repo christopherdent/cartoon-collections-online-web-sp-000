@@ -17,6 +17,7 @@ def summon_captain_planet(summons)
   summons.map do |summon|
     summon.capitalize
   end 
+  summons
 end
 
 #def long_planeteer_calls# code an argument here
