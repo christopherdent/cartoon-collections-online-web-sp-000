@@ -16,7 +16,7 @@ def summon_captain_planet(summons)
   
   summons.map do |summon|
     summon + "!"
-    calls << summon
+   
   end 
  
  p summon
