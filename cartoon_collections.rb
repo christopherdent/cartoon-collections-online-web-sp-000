@@ -43,10 +43,10 @@ end
 
 
 
+
+
+def find_the_cheese(string)
 cheese_types = ["cheddar", "gouda", "camembert"]
-
-def find_the_cheese()
-
   find(cheese_types) 
   
   
