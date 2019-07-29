@@ -53,9 +53,9 @@ cheeses = ["cheddar", "gouda", "camembert"]
 
   array.include? do 
     
-  array.find(cheeses)
+   array.find(cheeses)
   
-   
+ end 
    
   
   
