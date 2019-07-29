@@ -52,7 +52,7 @@ cheese_types = ["cheddar", "gouda", "camembert"]
   string.detect do |item|
     include?.cheese_types
   
-  end 
+   
  end  
   
   
