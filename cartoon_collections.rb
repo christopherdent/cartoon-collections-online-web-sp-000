@@ -15,7 +15,7 @@ summons = ["earth", "wind", "fire", "water", "heart"]
 def summon_captain_planet(summons)
   
   summons.map! do |summon|
-    summon  "!"
+    summon  + "!"
   end 
  
  p summons
