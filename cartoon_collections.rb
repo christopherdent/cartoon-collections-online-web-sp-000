@@ -50,7 +50,7 @@ cheese_types = ["cheddar", "gouda", "camembert"]
 
 if string.include?(cheese_types)
 
-  string.detect do |item|
+  string.split.detect do |item|
     cheese_types
   
   end 
