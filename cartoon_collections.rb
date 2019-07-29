@@ -53,9 +53,6 @@ cheeses = ["cheddar", "gouda", "camembert"]
    array.find(cheeses)
   
   
-   
-  
-  
 end
 
 
