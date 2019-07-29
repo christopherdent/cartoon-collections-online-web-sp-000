@@ -19,7 +19,7 @@ def summon_captain_planet(summons)
    
   end 
  
- p summon
+ p summons
   
 end
 
