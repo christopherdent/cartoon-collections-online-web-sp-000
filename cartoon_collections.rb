@@ -50,7 +50,7 @@ def find_the_cheese(array)
 
 cheeses = ["cheddar", "gouda", "camembert"]
 
-   array.find do |i|
+   array.detect  do |i|
      i.include?(cheeses)
   
   end 
