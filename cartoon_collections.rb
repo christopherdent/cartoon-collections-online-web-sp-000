@@ -18,7 +18,7 @@ def summon_captain_planet(summons)
     summon.capitalize + "!"
     calls << summon
   end 
-  p summons
+  p calls
 end
 
 summon_captain_planet(summons)
