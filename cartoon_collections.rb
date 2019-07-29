@@ -52,7 +52,7 @@ if string.include?(cheese_types)
 
   string.split(" ")
   string.detect do |item|
-    cheese_types
+    include?.cheese_types
   
   end 
  end  
