@@ -53,7 +53,7 @@ cheeses = ["cheddar", "gouda", "camembert"]
    array.find do |i|
      i.include?(cheeses)
   
-end 
+  end 
 end
 
 
