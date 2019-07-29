@@ -17,16 +17,26 @@ def summon_captain_planet(summons)
   summons.map! do |summon|
     summon.capitalize  + "!"
   end 
- 
  p summons
-  
 end
-
 summon_captain_planet(summons)
 
-#def long_planeteer_calls# code an argument here
-  # Your code here
-#end
+
+############################################
+
+def long_planeteer_calls(calls)
+  calls.any? > 4
+    
+end
+
+
+
+
+
+
+
+
+
 
 #def find_the_cheese# code an argument here
   # the array below is here to help
