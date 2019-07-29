@@ -13,9 +13,10 @@ roll_call_dwarves(dwarves)
 
 summons = ["earth", "wind", "fire", "water", "heart"]
 def summon_captain_planet(summons)
-calls  []
+  calls = []
   summons.map do |summon|
     summon.capitalize + "!"
+    
   end 
   p summons
 end
