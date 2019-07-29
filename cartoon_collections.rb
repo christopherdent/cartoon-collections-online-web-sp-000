@@ -51,7 +51,7 @@ def find_the_cheese(array)
 cheeses = ["cheddar", "gouda", "camembert"]
 
 
-  array.include? do 
+  array.include? do |each_item|
     
    array.find(cheeses)
   
