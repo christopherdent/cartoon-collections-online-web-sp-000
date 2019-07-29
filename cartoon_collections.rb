@@ -16,7 +16,6 @@ def summon_captain_planet(summons)
   
   summons.map do |summon|
     summon.upcase
-   
   end 
  
  p summons
