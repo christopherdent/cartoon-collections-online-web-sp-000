@@ -50,7 +50,7 @@ def find_the_cheese(array)
 
 cheeses = ["cheddar", "gouda", "camembert"]
 
-   array.include("cheddar" || "gouda" || "camembert")
+   array.include?("cheddar" || "gouda" || "camembert")
    
    
 end
