@@ -48,14 +48,10 @@ end
 def find_the_cheese(array)
 
 
-
-
-
-  array.detect do |item|
-    array.include?(["cheddar", "gouda", "camembert"])
+  array.include?(["cheddar", "gouda", "camembert"])
   
    
- end  
+   
   
   
 end
