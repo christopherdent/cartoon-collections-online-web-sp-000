@@ -47,11 +47,11 @@ end
 
 def find_the_cheese(array)
 
-
-  array.include?(["cheddar", "gouda", "camembert"])
+array.detect do |item|
+  item.include?(["cheddar", "gouda", "camembert"])
   
    
-   
+ end  
   
   
 end
