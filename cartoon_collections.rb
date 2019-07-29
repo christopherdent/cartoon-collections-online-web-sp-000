@@ -50,14 +50,13 @@ def find_the_cheese(array)
 
 cheeses = ["cheddar", "gouda", "camembert"]
 
-   array.detect do |i|
-     array.inculde? (cheeses)
+   array.detect 
   
-  end 
+   
 end
 
 
-
+##.detect RETURNS FIRST TRUE VALUE 
 
 
 
