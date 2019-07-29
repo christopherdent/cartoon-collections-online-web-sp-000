@@ -15,7 +15,7 @@ roll_call_dwarves(dwarves)
 def summon_captain_planet(summons)
 
   summons.map do |summon|
-    puts summon.join
+    
   end 
   summons
 end
