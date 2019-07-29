@@ -13,7 +13,7 @@ roll_call_dwarves(dwarves)
 
 summons = ["earth", "wind", "fire", "water", "heart"]
 def summon_captain_planet(summons)
-  calls = summons.split
+  calls = summons.join
   summons.map do |summon|
     summon + "!"
     calls << summon
