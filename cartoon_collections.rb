@@ -58,7 +58,7 @@ end
 
 ##.detect RETURNS FIRST TRUE VALUE 
 
-
+#.include?  returns true if the given object is present in self (that is, if any element == object), otherwise returns false.
 
 
 
