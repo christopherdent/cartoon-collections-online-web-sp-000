@@ -45,7 +45,7 @@ end
 
 cheese_types = ["cheddar", "gouda", "camembert"]
 
-def find_the_cheese(cheese_types)
+def find_the_cheese()
 
   find(cheese_types) 
   
