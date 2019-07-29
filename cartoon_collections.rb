@@ -45,14 +45,14 @@ end
 
 
 
-def find_the_cheese(string)
-cheese_types = ["cheddar", "gouda", "camembert"]
+def find_the_cheese(array)
 
 
 
 
-  string.detect do |item|
-    string.include?(cheese_types)
+
+  array.detect do |item|
+    string.include?(["cheddar", "gouda", "camembert"])
   
    
  end  
