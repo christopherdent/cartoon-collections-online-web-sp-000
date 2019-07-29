@@ -18,6 +18,7 @@ def summon_captain_planet(summons)
     summon + "!"
     calls << summon
   end 
+  calls.split
   p calls
 end
 
